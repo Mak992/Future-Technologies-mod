@@ -1,0 +1,13 @@
+name: Stack Conveyor
+type: StackConveyor
+requirements: [
+copper/1
+lead/5
+graphite/2
+silicon/1
+]
+health: 120
+speed: 0.01
+itemCapacity: 32
+research: plastanium-conveyor
+category: distribution

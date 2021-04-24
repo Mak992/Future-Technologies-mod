@@ -1,0 +1,24 @@
+type: "Drill", 
+size: 3, 
+tier: 2, 
+drillTime: 30, 
+warmupSpeed: 0.05, 
+rotateSpeed: 3, 
+liquidBoostIntensity: 2,
+drawMineItem: false, 
+hasPower: true, 
+hasLiquids: false, 
+hasItems: true, 
+itemCapacity: 15, 
+updateEffect: "smeltsmoke",
+consumes: {
+power:5
+}
+requirements: [ 
+silicon/35
+titanium/40
+scrap/20
+surge-alloy/20
+], 
+category: production,
+research: "surge-drill"

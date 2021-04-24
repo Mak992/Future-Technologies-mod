@@ -1,0 +1,100 @@
+type: ItemTurret
+name: Driver Cannon
+description: A Mass-Driver version that shoot out an enemy's flying units.
+
+requirements: [
+  lead/145
+  titanium/140
+  thorium/35
+  silicon/65
+]
+
+ammoTypes: {
+	scrap: {
+   	type: BasicBulletType
+   	speed: 7.8
+      damage: 65
+      width: 12
+      height: 30
+      lifetime: 45
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 1
+      incendSpread: 1
+      frontColor: faf4af
+      backColor: f2a9fe
+	},
+	lead: {
+   	type: BasicBulletType
+   	speed: 10
+      damage: 95
+      width: 12
+      height: 30
+      lifetime: 60
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 1
+      incendSpread: 1
+      frontColor: ffffff
+      backColor: fa12fa
+	},
+	metaglass: {
+   	type: BasicBulletType
+    speed: 9.5
+      damage: 150
+      width: 12
+      height: 30
+      lifetime: 80
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 1
+      incendSpread: 1
+      frontColor: ffffff
+      backColor: 171717
+  }, 
+	titanium: {
+   	type: BasicBulletType
+   	speed: 8.75
+      damage: 220
+      width: 12
+      height: 30
+      lifetime: 80
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 1
+      incendSpread: 1
+      frontColor: f2f2ff
+      backColor: 0202f3
+	}, 
+	surge-alloy: {
+   	type: BasicBulletType
+   	speed: 9.8
+      damage: 355
+      width: 12
+      height: 30
+      lifetime: 80
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 1
+      incendSpread: 1
+      frontColor: fffffe
+      backColor: 23231a
+	}
+}
+
+reloadTime: 135
+range: 400
+size: 3
+burstSpacing: 1
+shots: 1
+targetGround: false
+targetAir: true
+
+recoilAmount: 1
+rotateSpeed: 6
+inaccuracy: 0
+shootCone: 5
+health: 1550
+shootSound: shootSnap
+
+category: turret
