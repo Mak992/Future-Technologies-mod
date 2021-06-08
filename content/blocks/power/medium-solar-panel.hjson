@@ -4,7 +4,7 @@ description: Better version of simple panel. Can produce power from nothing.
 health: 120
 size: 2
 hasPower: true
-powerProduction: 1
+powerProduction: 0.46
 requirements: [
   lead/30
   silicon/50
