@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Driver Cannon
-description: A Mass-Driver version that shoot out an enemy's flying units.
+description: A Mass-Driver version that shoot out an enemy's flying units. Good Anti-Aviation-System
 
 requirements: [
   lead/145
@@ -68,11 +68,11 @@ ammoTypes: {
 	}, 
 	surge-alloy: {
    	type: BasicBulletType
-   	speed: 9.8
-      damage: 355
-      width: 12
-      height: 30
-      lifetime: 80
+   	speed: 10
+      damage: 350
+      width: 12.5
+      height: 32
+      lifetime: 85
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
       incendAmount: 1
@@ -82,19 +82,19 @@ ammoTypes: {
 	}
 }
 
-reloadTime: 135
-range: 400
+reloadTime: 140
+range: 410
 size: 3
-burstSpacing: 1
+burstSpacing: 1.2
 shots: 1
 targetGround: false
 targetAir: true
 
 recoilAmount: 1
-rotateSpeed: 6
-inaccuracy: 0
-shootCone: 5
-health: 1550
+rotateSpeed: 6.2
+inaccuracy: 0.1
+shootCone: 5.2
+health: 1600
 shootSound: shootSnap
 
 category: turret
