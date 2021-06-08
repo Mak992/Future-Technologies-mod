@@ -2,12 +2,12 @@ name: Stack Conveyor
 type: StackConveyor
 requirements: [
 copper/1
-lead/5
-graphite/2
+lead/6
+graphite/3
 silicon/1
 ]
-health: 120
-speed: 0.01
-itemCapacity: 32
+health: 115
+speed: 0.25
+itemCapacity: 26
 research: plastanium-conveyor
 category: distribution
