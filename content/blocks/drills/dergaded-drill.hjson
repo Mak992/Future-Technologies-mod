@@ -1,24 +1,23 @@
 type: "Drill", 
-size: 3, 
+size: 2, 
 tier: 2, 
-drillTime: 30, 
-warmupSpeed: 0.05, 
-rotateSpeed: 3, 
-liquidBoostIntensity: 2,
+drillTime: 250, 
+warmupSpeed: 0.01, 
+rotateSpeed: 1, 
+liquidBoostIntensity: 1.2,
 drawMineItem: false, 
 hasPower: true, 
 hasLiquids: false, 
 hasItems: true, 
-itemCapacity: 15, 
+itemCapacity: 5, 
 updateEffect: "smeltsmoke",
 consumes: {
 power:5
 }
 requirements: [ 
-silicon/35
-titanium/40
-scrap/20
-surge-alloy/20
+scrap/50
+copper/30
+graphite/5
 ], 
 category: production,
-research: "surge-drill"
+research: "dergaded-drill"

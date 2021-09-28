@@ -13,7 +13,7 @@ ammoTypes: {
 	scrap: {
    	type: BasicBulletType
    	speed: 7.8
-      damage: 65
+      damage: 60
       width: 12
       height: 30
       lifetime: 45
@@ -27,7 +27,7 @@ ammoTypes: {
 	lead: {
    	type: BasicBulletType
    	speed: 10
-      damage: 95
+      damage: 75
       width: 12
       height: 30
       lifetime: 60
@@ -41,7 +41,7 @@ ammoTypes: {
 	metaglass: {
    	type: BasicBulletType
     speed: 9.5
-      damage: 150
+      damage: 130
       width: 12
       height: 30
       lifetime: 80
@@ -55,7 +55,7 @@ ammoTypes: {
 	titanium: {
    	type: BasicBulletType
    	speed: 8.75
-      damage: 220
+      damage: 197
       width: 12
       height: 30
       lifetime: 80
@@ -69,7 +69,7 @@ ammoTypes: {
 	surge-alloy: {
    	type: BasicBulletType
    	speed: 10
-      damage: 350
+      damage: 299
       width: 12.5
       height: 32
       lifetime: 85
@@ -82,19 +82,19 @@ ammoTypes: {
 	}
 }
 
-reloadTime: 140
-range: 410
+reloadTime: 120
+range: 420
 size: 3
-burstSpacing: 1.2
+burstSpacing: 1.1
 shots: 1
 targetGround: false
 targetAir: true
 
 recoilAmount: 1
 rotateSpeed: 6.2
-inaccuracy: 0.1
-shootCone: 5.2
-health: 1600
+inaccuracy: 0.2
+shootCone: 5.5
+health: 1650
 shootSound: shootSnap
 
 category: turret

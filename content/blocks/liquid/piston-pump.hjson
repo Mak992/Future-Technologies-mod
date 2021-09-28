@@ -1,0 +1,20 @@
+type: Pump
+
+size: 1
+hasPower: false
+hasItems: false
+hasLiquids: true
+liquidCapacity: 20
+
+requirements: [
+    scrap/50
+    copper/20
+    lead/35
+    metaglass/10
+]
+
+pumpAmount: 0.1
+category: liquid
+research: mechanical-pump
+
+placeableLiquid: true
