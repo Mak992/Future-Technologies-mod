@@ -12,7 +12,6 @@ hasItems: true,
 itemCapacity: 5, 
 updateEffect: "smeltsmoke",
 consumes: {
-power:5
 }
 requirements: [ 
 scrap/50
