@@ -1,12 +1,12 @@
 type: "Drill",
 size: 2, 
 tier: 2, 
-drillTime: 250, 
+drillTime: 800, 
 warmupSpeed: 0.01, 
 rotateSpeed: 1, 
 liquidBoostIntensity: 1.2,
 drawMineItem: false, 
-hasPower: true, 
+hasPower: false, 
 hasLiquids: false, 
 hasItems: true, 
 itemCapacity: 5, 
@@ -17,7 +17,7 @@ power:5
 requirements: [ 
 scrap/50
 copper/30
-graphite/5
+lead/40
 ], 
 category: production,
 research: "degraded-drill"
