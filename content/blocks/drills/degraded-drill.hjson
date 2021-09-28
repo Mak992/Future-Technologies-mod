@@ -1,4 +1,4 @@
-type: "Drill", 
+type: "Drill",
 size: 2, 
 tier: 2, 
 drillTime: 250, 
@@ -20,4 +20,4 @@ copper/30
 graphite/5
 ], 
 category: production,
-research: "dergaded-drill"
+research: "degraded-drill"
