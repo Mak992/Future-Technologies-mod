@@ -1,7 +1,7 @@
 type: "Drill",
 size: 2, 
-tier: 2, 
-drillTime: 800, 
+tier: 3, 
+drillTime: 450, 
 warmupSpeed: 0.01, 
 rotateSpeed: 1, 
 liquidBoostIntensity: 1.2,
@@ -17,6 +17,7 @@ requirements: [
 scrap/50
 copper/30
 lead/40
+graphite/4
 ], 
 category: production,
 research: "degraded-drill"
