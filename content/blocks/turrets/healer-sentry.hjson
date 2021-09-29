@@ -1,6 +1,6 @@
 type: PowerTurret
 size: 1
-health: 200
+health: 250
 reloadTime: 80
 range: 100
 shots: 3
@@ -10,19 +10,19 @@ powerUse: 0.6
 targetHealing: true
 shootSound: lasershoot
 shootType: {
-  type: LaserBoltBulletType
-  damage: 7
+  type: LaserBulletType
+  length: 88
+  width: 16
+  damage: 10
   collidesTeam: true
-  healPercent: 5
-  speed: 7
-  lifetime: 30
-  frontColor: ffffff
-  backColor: 83f793
+  healPercent: 4
+  colors: [00ff00, adff2f, 32cd32]
 }
 category: turret
 research: scorch
 requirements: [
   copper/60
   lead/45
-  graphite/5
+  graphite/10
+  silicon/20
 ]
