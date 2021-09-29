@@ -1,0 +1,15 @@
+type: Drill
+size: 2
+tier: 3
+drillTime: 400
+liquidBoostIntensity: 1.5
+requirements: [
+  scrap/50
+  copper/30
+  lead/40
+  graphite/4
+]
+category: production
+ambientSound: build
+ambientSoundVolume: 0.05
+research: pneumatic-drill

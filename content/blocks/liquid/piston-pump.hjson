@@ -1,20 +1,15 @@
 type: Pump
-
 size: 1
+health: 100
 hasPower: false
-hasItems: false
-hasLiquids: true
-liquidCapacity: 20
-
+pumpAmount: 1
+squareSprite: false
+liquidCapacity: 25
 requirements: [
-    scrap/50
-    copper/20
-    lead/35
-    metaglass/10
+  scrap/50
+  copper/30
+  lead/40
+  metaglass/3
 ]
-
-pumpAmount: 0.1
 category: liquid
 research: mechanical-pump
-
-placeableLiquid: true
