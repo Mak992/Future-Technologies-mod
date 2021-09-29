@@ -2,7 +2,7 @@ type: Pump
 size: 1
 health: 100
 hasPower: false
-pumpAmount: 1
+pumpAmount: 0.2
 squareSprite: false
 liquidCapacity: 25
 requirements: [
