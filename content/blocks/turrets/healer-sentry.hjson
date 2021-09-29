@@ -1,25 +1,22 @@
 type: PowerTurret
 size: 1
-health: 250
-reloadTime: 80
-range: 100
-shots: 3
-burstSpacing: 2
-spread: 1
-powerUse: 0.6
+health: 300
+reloadTime: 100
+range: 110
+powerUse: 1.1
 targetHealing: true
 shootSound: lasershoot
 shootType: {
   type: LaserBulletType
-  length: 88
-  width: 16
-  damage: 10
+  length: 100
+  width: 20
+  damage: 12
   collidesTeam: true
   healPercent: 4
   colors: [00ff00, adff2f, 32cd32]
 }
 category: turret
-research: scorch
+research: arc
 requirements: [
   copper/60
   lead/45
