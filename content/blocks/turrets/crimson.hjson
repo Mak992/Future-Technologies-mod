@@ -29,6 +29,6 @@ category: turret
 research: duo
 requirements: [
   copper/125
-  gralhite/60
+  graphite/60
   silicon/20
 ]
