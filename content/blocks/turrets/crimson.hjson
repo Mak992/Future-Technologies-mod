@@ -1,47 +1,34 @@
-type: LiquidTurret
+type: ItemTurret
 size: 2
-squareSprite: false
+health: 400
 range: 100
-health: 420
-reloadTime: 5
-shots: 1
-shootEffect: {
-  type: ParticleEffect
-  cone: 2
-  particles: 10
-  length: 40
-  lifetime: 50
-  interp: pow5Out
-  sizeFrom: 3
-  sizeTo: 2
-  colorFrom: 586aa7
-  colorTo: 588aa736
-}
+reloadTime: 60
+shots: 2
+spread: 4
+shootSound: shotgun
+shootShake: 0.6
 ammoTypes: {
-  water: {
-    type: LiquidBulletType
-    liquid: water
-    damage: 5
-    speed: 3.75
-    lifetime: 22
-    drag: 0.01
-    orbSize: 3
-  },
-    cryofluid: {
-    type: LiquidBulletType
-    liquid: cryofluid
+  graphite: {
+    type: ShrapnelBulletType
+    length: 12
+    width: 10
+    damage: 10
+    ammoMultiplier: 3
+    toColor: 5f9ea0
+  }
+  silicon: {
+    type: ShrapnelBulletType
+    length: 13
+    width: 11
     damage: 11
-    speed: 4
-    lifetime: 24
-    drag: 0.01
-    orbSize: 3
+    ammoMultiplier: 5
+    toColor: 696969
   }
 }
 category: turret
-research: wave
+research: duo
 requirements: [
-  copper/200
-  graphite/30
-  silicon/50
-  metaglass/45
+  copper/125
+  gralhite/60
+  silicon/20
 ]
