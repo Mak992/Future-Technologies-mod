@@ -26,10 +26,10 @@ shootType: {
   hitEffect: hitMeltHeal
 }
 category: turret
-research: 
+research: arc
 requirements: [
   copper/150
   lead/100
   graphite/40
   silicon/45
-]
+  ]
