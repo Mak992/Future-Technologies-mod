@@ -1,0 +1,25 @@
+type: PowerTurret
+size: 2
+health: 345
+reloadTime: 100
+range: 150
+powerUse: 2.9
+targetHealing: true
+shootSound: lasershoot
+shootType: {
+  type: LaserBulletType
+  length: 110
+  width: 22
+  damage: 22
+  collidesTeam: true
+  healPercent: 4
+  colors: [e0ffff, 00ffff, 008080]
+}
+category: turret
+research: arc
+requirements: [
+  copper/100
+  lead/95
+  silicon/50
+  titanium/20
+]
