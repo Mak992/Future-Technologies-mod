@@ -10,7 +10,7 @@ shootShake: 0.6
 ammoTypes: {
   graphite: {
     type: ShrapnelBulletType
-    length: 20
+    length: 40
     width: 14
     damage: 26
     ammoMultiplier: 3
@@ -18,7 +18,7 @@ ammoTypes: {
   }
   silicon: {
     type: ShrapnelBulletType
-    length: 25
+    length: 48
     width: 17
     damage: 32
     ammoMultiplier: 6
