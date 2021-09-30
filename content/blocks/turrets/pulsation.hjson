@@ -3,16 +3,14 @@ size: 2
 health: 345
 reloadTime: 100
 range: 150
-powerUse: 2.9
+powerUse: 4
 targetHealing: true
 shootSound: lasershoot
 shootType: {
   type: LaserBulletType
   length: 110
   width: 22
-  damage: 22
-  collidesTeam: true
-  healPercent: 4
+  damage: 45
   colors: [e0ffff, 00ffff, 008080]
 }
 category: turret
