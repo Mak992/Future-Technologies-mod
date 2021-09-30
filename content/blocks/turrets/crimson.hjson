@@ -31,10 +31,10 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: cryofluid
     damage: 11
-    speed: 5
+    speed: 4
     lifetime: 24
     drag: 0.01
-    orbSize: 4
+    orbSize: 3
   }
 }
 category: turret
