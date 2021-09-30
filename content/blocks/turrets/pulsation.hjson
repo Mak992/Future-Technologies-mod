@@ -3,7 +3,7 @@ size: 2
 health: 345
 reloadTime: 100
 range: 150
-powerUse: 4
+powerUse: 5.2
 targetHealing: true
 shootSound: lasershoot
 shootType: {
