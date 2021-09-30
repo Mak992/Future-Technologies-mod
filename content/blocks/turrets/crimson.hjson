@@ -4,12 +4,12 @@ squareSprite: false
 range: 100
 health: 420
 reloadTime: 5
-shots: 2
+shots: 1
 shootEffect: {
   type: ParticleEffect
   cone: 2
   particles: 10
-  length: 10
+  length: 40
   lifetime: 50
   interp: pow5Out
   sizeFrom: 3
@@ -22,9 +22,9 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: water
     damage: 5
-    speed: 3
-    lifetime: 20
-    drag: 0.05
+    speed: 3.75
+    lifetime: 22
+    drag: 0.01
     orbSize: 3
   },
     cryofluid: {
