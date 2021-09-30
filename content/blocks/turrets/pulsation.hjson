@@ -10,14 +10,14 @@ shootType: {
   type: LaserBulletType
   length: 110
   width: 22
-  damage: 45
+  damage: 150
   colors: [e0ffff, 00ffff, 008080]
 }
 category: turret
 research: arc
 requirements: [
-  copper/100
-  lead/95
-  silicon/50
-  titanium/20
+  copper/120
+  lead/100
+  silicon/55
+  titanium/25
 ]
