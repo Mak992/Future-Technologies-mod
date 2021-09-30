@@ -2,33 +2,33 @@ type: ItemTurret
 size: 2
 health: 400
 range: 100
-reloadTime: 60
-shots: 2
-spread: 4
+reloadTime: 110
+shots: 3
+spread: 8
 shootSound: shotgun
 shootShake: 0.6
 ammoTypes: {
   graphite: {
     type: ShrapnelBulletType
-    length: 12
-    width: 10
-    damage: 10
+    length: 20
+    width: 14
+    damage: 26
     ammoMultiplier: 3
     toColor: 5f9ea0
   }
   silicon: {
     type: ShrapnelBulletType
-    length: 13
-    width: 11
-    damage: 11
-    ammoMultiplier: 5
+    length: 25
+    width: 17
+    damage: 32
+    ammoMultiplier: 6
     toColor: 696969
   }
 }
 category: turret
 research: duo
 requirements: [
-  copper/125
-  graphite/60
-  silicon/20
+  copper/145
+  graphite/70
+  silicon/25
 ]
