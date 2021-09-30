@@ -1,8 +1,7 @@
 type: LiquidTurret
 size: 2
 squareSprite: false
-requiresWater: true
-range: 150
+range: 50
 health: 420
 reloadTime: 4
 shots: 2
@@ -11,9 +10,9 @@ velocityInaccuracy: 1
 shootEffect: {
   type: ParticleEffect
   cone: 2
-  particles: 8
+  particles: 10
   length: 46
-  lifetime: 26
+  lifetime: 50
   interp: pow5Out
   sizeFrom: 3
   sizeTo: 2
@@ -24,20 +23,20 @@ ammoTypes: {
   water: {
     type: LiquidBulletType
     liquid: water
-    damage: 6
-    speed: 13
-    lifetime: 32
+    damage: 5
+    speed: 5
+    lifetime: 20
     drag: 0.05
-    orbSize: 2
+    orbSize: 5
   },
     cryofluid: {
     type: LiquidBulletType
     liquid: cryofluid
-    damage: 14
-    speed: 15
-    lifetime: 40
+    damage: 12
+    speed: 6
+    lifetime: 24
     drag: 0.02
-    orbSize: 3
+    orbSize: 6
   }
 }
 category: turret
