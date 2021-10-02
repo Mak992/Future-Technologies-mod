@@ -54,5 +54,5 @@ category: turret
 research: duo
 requirements: [
   copper/45
-  lead/50
+  lead/75
 ]
