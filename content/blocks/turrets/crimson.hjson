@@ -26,7 +26,7 @@ ammoTypes: {
   }
 }
 category: turret
-research: bush
+research: f-bush
 requirements: [
   copper/145
   graphite/70

@@ -48,7 +48,7 @@ ammoTypes: {
     frontColor: f68021
     backColor: f8ad42
     trailColor: f8ad42
-    status: 
+    status: f-pierced
   }
 }
 category: turret
