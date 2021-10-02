@@ -49,8 +49,8 @@ ammoTypes: {
     backColor: f8ad42
     trailColor: f8ad42
     status: 
-    }
   }
+}
 category: turret
 research: duo
 requirements: [
