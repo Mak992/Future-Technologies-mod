@@ -51,7 +51,6 @@ ammoTypes: {
     status: 
     }
   }
-}
 category: turret
 research: duo
 requirements: [
