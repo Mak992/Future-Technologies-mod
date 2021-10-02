@@ -14,7 +14,7 @@ ammoTypes: {
     width: 10
     damage: 18
     ammoMultiplier: 3
-    toColor: 00ff00
+    toColor: 050505
   }
   graphite: {
     type: ShrapnelBulletType
