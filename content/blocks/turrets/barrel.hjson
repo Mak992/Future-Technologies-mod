@@ -1,0 +1,60 @@
+type: ItemTurret
+size: 1
+targetAir: false
+range: 220
+health: 300
+inaccuracy: 8
+reloadTime: 10
+recoilAmount: 2
+velocityInaccuracy: 0.1
+shots: 3
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+shootSound: artillery
+shootShake: 0.6
+ammoUseEffect: casing
+ammoTypes: {
+  copper: {
+    type: MissileBulletType
+    damage: 4
+    speed: 2
+    lifetime: 40
+    ammoMultiplier: 2
+    weaveMag: 3
+    weaveScale: 2
+    trailColor: c4a18b
+  }
+  coal: {
+    type: MissileBulletType
+    damage: 6
+    speed: 3
+    lifetime: 60
+    ammoMultiplier: 1
+    reloadMultiplier: 1.1
+    weaveMag: 3
+    weaveScale: 4
+    frontColor: b0b9bf
+    backColor: "6e7080"
+    trailColor: "6e7080"
+  }
+  silicon: {
+    type: MissileBulletType
+    damage: 9
+    speed: 4
+    lifetime: 80
+    ammoMultiplier: 3
+    weaveMag: 4
+    weaveScale: 3
+    frontColor: f68021
+    backColor: f8ad42
+    trailColor: f8ad42
+    status: 
+    }
+  }
+}
+category: turret
+research: duo
+requirements: [
+  copper/45
+  lead/50
+]
