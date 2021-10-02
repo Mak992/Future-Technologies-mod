@@ -1,7 +1,7 @@
 type: ItemTurret
 size: 1
 targetAir: false
-range: 220
+range: 140
 health: 300
 inaccuracy: 8
 reloadTime: 10
@@ -18,14 +18,14 @@ ammoTypes: {
     damage: 1
     speed: 2
     lifetime: 40
-    ammoMultiplier: 2
+    ammoMultiplier: 1
     weaveMag: 3
     weaveScale: 2
     trailColor: c4a18b
   }
   coal: {
     type: MissileBulletType
-    damage: 6
+    damage: 2
     speed: 3
     lifetime: 60
     ammoMultiplier: 1
@@ -38,15 +38,15 @@ ammoTypes: {
   }
   silicon: {
     type: MissileBulletType
-    damage: 9
+    damage: 5
     speed: 4
     lifetime: 80
     ammoMultiplier: 3
     weaveMag: 4
     weaveScale: 3
-    frontColor: f68021
-    backColor: f8ad42
-    trailColor: f8ad42
+    frontColor: 696969
+    backColor: 454545
+    trailColor: 3f5f5f
     status: pierced
   }
 }
