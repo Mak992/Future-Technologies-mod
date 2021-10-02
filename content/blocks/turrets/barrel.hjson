@@ -15,7 +15,7 @@ shootShake: 0.6
 ammoTypes: {
   copper: {
     type: MissileBulletType
-    damage: 4
+    damage: 1
     speed: 2
     lifetime: 40
     ammoMultiplier: 2
@@ -47,7 +47,7 @@ ammoTypes: {
     frontColor: f68021
     backColor: f8ad42
     trailColor: f8ad42
-    status: f-pierced
+    status: pierced
   }
 }
 category: turret
