@@ -12,7 +12,6 @@ shootEffect: shootBig
 smokeEffect: shootBigSmoke
 shootSound: artillery
 shootShake: 0.6
-ammoUseEffect: casing
 ammoTypes: {
   copper: {
     type: MissileBulletType
