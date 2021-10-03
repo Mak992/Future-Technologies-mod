@@ -3,9 +3,9 @@ size: 1
 targetAir: false
 range: 120
 health: 200
-inaccuracy: 1
+inaccuracy: 0
 reloadTime: 110
-recoilAmount: 2
+recoilAmount: 1
 shots: 2
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
@@ -14,7 +14,7 @@ shootShake: 0.3
 ammoTypes: {
   copper: {
     type: MissileBulletType
-    damage: 3
+    damage: 1
     speed: 2
     lifetime: 40
     ammoMultiplier: 1
@@ -35,16 +35,16 @@ ammoTypes: {
     frontColor: b0b9bf
     backColor: "6e7080"
     trailColor: "6e7080"
-    status: pierced
+    status: burning
   }
   silicon: {
     type: MissileBulletType
     damage: 5
-    speed: 4
+    speed: 2
     lifetime: 80
     ammoMultiplier: 3
-    weaveMag: 4
-    weaveScale: 3
+    weaveMag: 5
+    weaveScale: 4
     frontColor: 696969
     backColor: 454545
     trailColor: 3f5f5f
