@@ -11,7 +11,7 @@ shootType: {
   length: 110
   width: 22
   damage: 150
-  colors: [e0ffff, 00ffff, 008080]
+  colors: [008080, 00ffff, e0ffff]
 }
 category: turret
 research: arc
