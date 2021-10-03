@@ -4,7 +4,7 @@ targetAir: false
 range: 120
 health: 300
 inaccuracy: 16
-reloadTime: 50
+reloadTime: 100
 recoilAmount: 2
 velocityInaccuracy: 2
 shots: 1
