@@ -1,16 +1,16 @@
 type: PowerTurret
 size: 4
 health: 1200
-reloadTime: 200
-range: 235
-powerUse: 10
+reloadTime: 390
+range: 242
+powerUse: 11
 targetHealing: true
 shootSound: lasershoot
 shootType: {
   type: LaserBulletType
-  length: 190
-  width: 50
-  damage: 150
+  length: 310
+  width: 90
+  damage: 500
   colors: [009090, 00bfbf, e0bfbf]
 }
 category: turret
@@ -18,6 +18,6 @@ research: arc
 requirements: [
   copper/600
   lead/450
-  silicon/120
-  surge-alloy/55
+  silicon/215
+  surge-alloy/105
 ]
